@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    height: 100px;
+    width: 90%;
+    align-self: center;
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+}

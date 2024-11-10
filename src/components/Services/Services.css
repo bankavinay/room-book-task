@@ -1,0 +1,39 @@
+.services-container{
+    margin-top: 70px;
+    margin-left: 40px;
+    align-self: center;
+}
+.services-container h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: roboto;
+}
+.list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    width: 90%;
+    gap: 15px;
+}
+.list-container li{
+    width: 30%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #cbd;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: roboto;
+}
+.list-container li i{
+    color: #cbd;
+    font-size: 60px;
+}
+.list-container li p{
+    font-size: 19px;
+    color: #68557b;
+    padding-left: 10px;
+}
